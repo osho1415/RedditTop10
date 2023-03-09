@@ -1,3 +1,6 @@
+# This file scrapes reddit to find top 10 reddit post and put together
+# their titles and url in a csv file.
+
 from bs4 import BeautifulSoup
 import requests
 import csv 
